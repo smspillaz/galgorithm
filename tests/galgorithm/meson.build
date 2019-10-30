@@ -20,6 +20,7 @@
 
 galgorithm_test_sources = [
   'galgorithm-binary-search-test.cpp',
+  'galgorithm-merge-sort-test.cpp',
 ]
 
 glib = dependency('glib-2.0')
