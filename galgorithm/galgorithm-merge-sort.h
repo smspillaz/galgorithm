@@ -27,7 +27,7 @@
 
 G_BEGIN_DECLS
 
-typedef int (GAlgorithmCompareFunc) (gconstpointer a, gconstpointer b);
+typedef int (*GAlgorithmCompareFunc) (gconstpointer a, gconstpointer b);
 
 GPtrArray * g_algorithm_merge_sort (GPtrArray             *array,
                                     GAlgorithmCompareFunc  cmp);
