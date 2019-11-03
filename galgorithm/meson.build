@@ -24,11 +24,13 @@ galgorithm_toplevel_headers = files([
   'galgorithm.h',
   'galgorithm-binary-search.h',
   'galgorithm-merge-sort.h',
+  'galgorithm-minheap.h',
   'galgorithm-quicksort.h'
 ])
 galgorithm_introspectable_sources = files([
   'galgorithm-binary-search.c',
   'galgorithm-merge-sort.c',
+  'galgorithm-minheap.c',
   'galgorithm-quicksort.c'
 ])
 galgorithm_private_headers = files([

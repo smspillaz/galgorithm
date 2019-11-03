@@ -21,6 +21,7 @@
 galgorithm_test_sources = [
   'galgorithm-binary-search-test.cpp',
   'galgorithm-merge-sort-test.cpp',
+  'galgorithm-minheap-test.cpp',
   'galgorithm-quicksort-test.cpp',
 ]
 
