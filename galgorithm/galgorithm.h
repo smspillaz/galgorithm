@@ -25,3 +25,4 @@
 #include <glib.h>
 
 #include <galgorithm/galgorithm-binary-search.h>
+#include <galgorithm/galgorithm-merge-sort.h>
